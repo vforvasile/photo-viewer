@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  .dependency "NYTPhotoViewer", '~> 4.0.0'
+  s.dependency "NYTPhotoViewer", '~> 4.0.0'
 
 end
