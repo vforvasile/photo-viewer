@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "NYTPhotoViewer", :git => 'https://github.com/vforvasile/NYTPhotoViewer.git'
+  s.dependency "NYTPhotoViewer", '~> 3.0.1'
 
 end
